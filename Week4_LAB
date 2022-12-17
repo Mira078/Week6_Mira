@@ -14,7 +14,7 @@ namespace htel
 
         {
 
-            Console.WriteLine("\t\t\tWelcome to sydney hotel");
+            Console.WriteLine("\t\t\tWelcome to Australia Sydney hotel");
             int i = 0;
             string[] name = new string[20];
             int[] night = new int[20];
@@ -82,9 +82,9 @@ namespace htel
 
                 //taking input to quit or continue
                 Console.WriteLine("________________________________________");
-                Console.WriteLine("Press q to exit Or press any other key to continue:");
+                Console.WriteLine("Press p to exit Or press any other key to continue:");
                 string? choice = Console.ReadLine();
-                if (choice=="q"|| choice == "Q")
+                if (choice=="p"|| choice == "P")
                 {
                     break;
                 }
